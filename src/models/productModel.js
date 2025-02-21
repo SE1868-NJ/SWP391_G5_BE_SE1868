@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-const pool = require('../config/Database');
-
-const Product = {
-    getProductForCart : async(id)=>{
-        const result = await pool.query('select ProductID,ProductName, Category,ProductImg, Price as ProductPrice from Product where ProductID = ?',[id]);
-        return result[0];
-    }
-}
-module.exports = Product
-=======
 const pool = require("../config/Database");
 const Products = {
   getAllProductsNew: async (option, type) => {
@@ -275,4 +264,3 @@ getProductsFavorite: async (CustomerID, pageIndex, keyword) => {
 
 };
 module.exports = Products;
->>>>>>> b3e574f830c601a49a43c8ba97e934e54bb6d7eb
