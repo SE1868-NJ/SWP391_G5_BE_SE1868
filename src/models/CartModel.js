@@ -43,7 +43,6 @@ const Carts = {
 
         let currentCartID = CartCurrentRecord?.[0]?.[0]?.CartID
 
-        // TH: CHƯA CÓ Cart
         if(!currentCartID){
             const [resultCart] = await pool.query(
                 "INSERT INTO Cart (CustomerID) values (?)", [customerID]
