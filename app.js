@@ -40,7 +40,6 @@ const PolicyRouter = require('./src/routers/PolicyRouter');
 const LoyaltyHistoryRouter = require("./src/routers/loyaltyHistoryRoutes");
 const AffiliateTrackingRouter = require("./src/routers/AffiliateTrackingRouter");
 
-
 const Shop = require("./src/routers/ShopRouter")
 const VideoRouter = require("./src/routers/VideoRouter")
 
@@ -105,8 +104,8 @@ app.use('/api/notifications', NotificationsRouter);
 app.use("/api/subitems", SubItemRouter);
 app.use("/api/categories", categoryRouter);
 app.use("/api/faqs", FAQRouter);
-app.use("/api/Transaction", TransactionRouter)
-app.use("/api/video", VideoRouter)
+app.use("/api/Transaction",TransactionRouter)
+app.use("/api/video",VideoRouter)
 app.use("/api/shop", Shop);
 app.use("/api/activitylogs", ActivityLogsRouter)
 app.use("/api/ProductFavorite", ProductFavoriteRouter);
@@ -125,13 +124,13 @@ app.use('/api/policy', PolicyRouter);
 
 app.use("/api/loyalty-history", LoyaltyHistoryRouter);
 app.use("/api/affiliate", AffiliateTrackingRouter);
-app.use("/api/loyalty-history", LoyaltyHistoryRouter);
 
 app.use(errorHandler);
 app.use("/api/support", SupportRouter); // API hỗ trợ khách hàng
 // Cấu hình upload file
 app.use("/uploads", express.static("src/uploads"));
 app.use("/api/loyalty", LoyaltyRouter);
+
 
 
 // Khởi động server
