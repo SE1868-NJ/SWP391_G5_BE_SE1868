@@ -24,7 +24,10 @@
 ![image](https://github.com/user-attachments/assets/5b2ba2af-4d10-45fd-9720-e16b56938c0b)
 8.Affiliate Page:
 ![image](https://github.com/user-attachments/assets/eaf24075-5643-458d-bf93-93bbb42198b6)
-8.Blog:
+9.Blog:
+
 ![image](https://github.com/user-attachments/assets/f109a10e-bca2-411a-8e6d-504d82c2bf8f)
+
+![image](https://github.com/user-attachments/assets/290e5ab6-fd27-40ea-b38d-41293f8729bb)
 
 
