@@ -29,5 +29,7 @@
 ![image](https://github.com/user-attachments/assets/f109a10e-bca2-411a-8e6d-504d82c2bf8f)
 
 ![image](https://github.com/user-attachments/assets/290e5ab6-fd27-40ea-b38d-41293f8729bb)
+10.Customer Detail:
+![image](https://github.com/user-attachments/assets/10f00891-f3e6-4745-bd2a-86340dae5dad)
 
 
